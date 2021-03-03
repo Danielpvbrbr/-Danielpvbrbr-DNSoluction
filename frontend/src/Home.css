@@ -1,0 +1,80 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+.main-direito{
+  width: 100%;
+  background-color: white;
+}
+
+.mainlist {
+  margin: 10px;
+  width: 100%;
+  padding: 10px;
+  display: block;
+  justify-content: center;
+
+}
+
+.mainlist legend {
+  text-align: center;
+}
+
+.mainlist .listJust {
+  padding: 8px;
+  width: 100%;
+  height: 600px;
+  border: 1px solid gray;
+}
+
+.mainlist .cont_lateral {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.mainlist .cont_lateral p {
+  font-size: 0.9em;
+}
+
+.button-check {
+color: blue;
+ 
+
+}
+
+.listJust {
+  float: right;
+  border: none;
+  font-size: 0.9em;
+  display: block;
+  width: 100px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  
+}
+
+.listJust h3 {
+  text-align: center;
+  font-size: 0.9em;
+  margin: 3px;
+
+}
+
+.listTable tr td {
+  width: 10%;
+  margin: 40px;
+  padding: 2px;
+  font-size: 0.9em;
+  border: 1px solid gray;
+}
+
+
+.listTable input[type="checkbox"] {
+  width: 20px;
+}
+
+.mainlist ol li {
+  margin: 10px
+}
